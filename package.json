@@ -1,0 +1,17 @@
+{
+  "name": "tin-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/polidario/Elizabeth_Clean",
+  "author": "Tindy Chu <ljoink@​yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "shopify theme dev --open --host=0.0.0.0 -s tin-dev",
+    "css": "npx @tailwindcss/cli -i ./src/tailwind.css -o ./assets/application.css",
+    "watch-css": "yarn css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}

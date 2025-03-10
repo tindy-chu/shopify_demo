@@ -1,0 +1,6 @@
+node_modules
+src
+package.json
+yarn.lock
+
+ip a | grep 'inet ' | grep -v 127.0.0.1 | head -n 1 | awk '{print $2}' | cut -d '/' -f 1
